@@ -49,10 +49,19 @@ Updates the database adding the product to the shopping bag with the provided id
 
 ## Screenshots
 
+Login Page
 <img width="1919" height="842" alt="Screenshot 2026-03-10 184008" src="https://github.com/user-attachments/assets/2d56d042-cfcf-4afe-b017-de587893ea6c" />
+
+Home Page
 <img width="1919" height="833" alt="Screenshot 2026-03-10 184026" src="https://github.com/user-attachments/assets/00514e05-5ca8-441c-83a9-4cecd4d567ad" />
+
+Product Page
 <img width="1919" height="826" alt="Screenshot 2026-03-10 184044" src="https://github.com/user-attachments/assets/5259d023-a23f-4b48-99ea-f3f273182fb7" />
+
+Review Section
 <img width="1477" height="344" alt="Screenshot 2026-03-10 184113" src="https://github.com/user-attachments/assets/87f5de32-3b78-47e2-9558-aa366791297b" />
+
+Shopping Cart Section
 <img width="530" height="636" alt="Screenshot 2026-03-10 184133" src="https://github.com/user-attachments/assets/82ef7faa-470c-430a-bd16-2ff426ff264f" />
 
 ## Future Improvements
