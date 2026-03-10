@@ -1,0 +1,13 @@
+.shade-button-container {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.shade-button {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border-color: grey;
+  border: none;
+}

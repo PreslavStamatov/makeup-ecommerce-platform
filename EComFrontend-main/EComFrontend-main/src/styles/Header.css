@@ -1,0 +1,118 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 140px;
+}
+
+.upperHeader {
+  display: flex;
+  height: 60%;  
+  justify-content: space-evenly;
+  position: relative;
+  transition: 0.5s;
+}
+
+.lowerHeader {
+  display: flex;
+  height: 40%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: 0.5s;
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.regionSettings {
+  font-size: 12px;
+  width: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+
+.logoContainer {
+  width: 500px;
+  height: 100%;
+}
+
+.headerLogo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.backgroundImg {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.headerOptions {
+  width: 14%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.headerOption {
+  color: white;
+  cursor: pointer;
+}
+
+.headerFilters {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.headerFilter{
+  border-radius: 40px;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #EB3986;
+}
+
+.headerFilters > p {
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  height: max-content;
+}
+
+
+
+.headerFilters > p:hover{
+  color: white;
+  background-color: pink;
+}
+
+
+.searchbarContainer {
+  border-bottom: 2px solid white;
+  position: relative;
+  left: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 11%;
+  height: 60%;
+}
+
+.headerFilter {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.headerFilter:hover {
+  color: black;
+}

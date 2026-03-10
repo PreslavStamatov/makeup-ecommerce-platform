@@ -1,0 +1,114 @@
+.shopping-bag-hover-container {
+  width: 420px;
+  z-index: 40;
+  border: 1px solid rgb(211, 211, 211);
+  position: absolute;
+  right: 10px;
+  top: 55px;
+  align-items: center;
+}
+
+.shopping-bag-hover-products {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  max-height: 350px;
+  overflow: auto;
+  align-items: center;
+  width: 90%;
+  background: #F6F0EF;
+  padding-top: 10px;
+}
+
+.shopping-bag-hover-header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: large;
+}
+
+.shopping-bag-hover-payment {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.pink-scrollbar::-webkit-scrollbar {
+  width: 4px; /* Thicker scrollbar width */
+  height: 80%; /* Thicker horizontal scrollbar (optional) */
+}
+
+.pink-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* Clean transparent track */
+}
+
+.pink-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #e91e63; /* Pink color for scrollbar thumb */
+  border-radius: 15px; /* Rounded corners for smooth look */
+  border: 3px solid transparent; /* Adds padding around the thumb to separate it from the track */
+}
+
+.pink-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #d81b60; /* Slightly darker pink on hover */
+}
+
+.pink-scrollbar::-webkit-scrollbar-button {
+  display: none; /* Hides the scrollbar arrows */
+}
+
+.separator {
+  width: 90%;
+  border-bottom: 1px solid rgb(211, 211, 211);
+  margin-top: 20px;
+}
+
+.shopping-bag-hover-options {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 93px;
+  margin-bottom: 10px;
+}
+
+.checkout-button {
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-bottom: 8px;
+  height: 50%;
+  border-radius: 20px;
+  background: #e31870;
+  border: 2px solid #e31870;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+}
+
+.checkout-button:hover {
+  background: white;
+  color: #e31870;
+  transition: 0.3s;
+}
+
+.view-bag-button {
+  cursor: pointer;
+  height: 50%;
+  border-radius: 20px;
+  border: 1px solid #e31870;
+  background: white;
+  font-weight: 600;
+}
+
+.view-bag-button:hover {
+  background: #FFEFEF;
+  transition: 0.5s;
+}
