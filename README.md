@@ -35,11 +35,17 @@ Authentication is handled using Spring Security with JWT tokens.
 
 ## API Examples
 
-GET /api/products  
-Returns the list of available products.
-
 POST /api/auth/login  
 Authenticates the user and returns a JWT token.
+
+GET /api/makeup/getAll 
+Returns the list of available products.
+
+POST /api/makeup/addComment
+Updates the database adding a comment to the specified makeup id.
+
+POST /shoppingBag/addToBag
+Updates the database adding the product to the shopping bag with the provided id.
 
 ## Screenshots
 
