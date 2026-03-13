@@ -27,9 +27,24 @@ Frontend
 
 ## Architecture
 
-The backend follows a layered architecture:
+```mermaid
+flowchart TD
 
-Controller → Service → Repository → Database
+A[React Client]
+B[Spring Boot REST API]
+C[Authentication Layer - Spring Security + JWT]
+D[Controller Layer - Product / User / Order Controllers]
+E[Service Layer - Business Logic]
+F[Repository Layer - JPA / Hibernate]
+G[MySQL Database]
+
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> G
+```
 
 Authentication is handled using Spring Security with JWT tokens.
 
